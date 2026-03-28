@@ -10,12 +10,12 @@ brew tap yag13s/tap
 
 ## Formulas
 
-┌─────────┬───────────────────────────────────────────────────┐
-│ Formula │                    Description                    │
-├─────────┼───────────────────────────────────────────────────┤
-│ goreach │ Find unreached code paths in running Go services. │
-└─────────┴───────────────────────────────────────────────────┘
+|Formula|Description|
+| :---: | :---: |
+|goreach|Find unreached code paths in running Go services.|
 
-## Install
+### [goreach](https://github.com/yag13s/goreach)
 
+```sh
 brew install yag13s/tap/goreach
+```
