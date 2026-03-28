@@ -17,5 +17,5 @@ brew tap yag13s/tap
 ### [goreach](https://github.com/yag13s/goreach)
 
 ```sh
-brew install yag13s/tap/goreach
+brew install --cask yag13s/tap/goreach
 ```
