@@ -3,7 +3,7 @@ cask "goreach" do
   name "goreach"
   desc "Find unreached code paths in running Go services."
   homepage "https://github.com/yag13s/goreach"
-  version "0.10.3"
+  version "0.11.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "goreach" do
   on_macos do
     on_intel do
       url "https://github.com/yag13s/goreach/releases/download/v#{version}/goreach_#{version}_darwin_amd64.tar.gz"
-      sha256 "7872e525136b0629b1d14ae857831167d2a14fc4ad9871e39bc7e09573ebc802"
+      sha256 "971a649cf329f7e54a40491853318f8a2eafe4d08ec8fcf92b3490145563a738"
     end
     on_arm do
       url "https://github.com/yag13s/goreach/releases/download/v#{version}/goreach_#{version}_darwin_arm64.tar.gz"
-      sha256 "e6107e59b66749f8ffa81b8e66506cab6bff292c510f8bbfcf89c4b7e9608d51"
+      sha256 "90bae66606e74972dad32590f4c6161b01c7791bb8ed306d1f5cb4bdddd4fc21"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yag13s/goreach/releases/download/v#{version}/goreach_#{version}_linux_amd64.tar.gz"
-      sha256 "c4ef981a4c177272d4628c51734b5924d195089d0694d753517e8ae7ccce7d44"
+      sha256 "0f20672cce3fbea7e31c5f4646ddbd81cda07a549a03e21fc7b0dd58bb93ee46"
     end
     on_arm do
       url "https://github.com/yag13s/goreach/releases/download/v#{version}/goreach_#{version}_linux_arm64.tar.gz"
-      sha256 "d879ae2a11d0dde98cf59edb6475ff8f5ad831d436748a151b48d8301cec266f"
+      sha256 "a1f76ebb529636954f407cdb4a50a630f94475480da7b3fc2fbc7ba2d8626c06"
     end
   end
 
